@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Проект собирается как графическое Windows-приложение без консоли. -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- TargetFramework указывает версию .NET и привязку к Windows для WinForms. -->
+    <TargetFramework>net5.0-windows</TargetFramework>
+
+    <!-- Включает поддержку Windows Forms. -->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!-- Пространство имен по умолчанию для C#-файлов проекта. -->
+    <RootNamespace>MiniOS</RootNamespace>
+
+    <!-- Имя итоговой сборки. -->
+    <AssemblyName>MiniOS</AssemblyName>
+  </PropertyGroup>
+</Project>
